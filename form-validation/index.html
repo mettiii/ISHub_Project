@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div id="error"></div>
+      <form action="" novalidate>
+        <div>
+          <label for="username">Username</label><br />
+          <input type="text" name="userame" id="username" />
+        </div>
+        <div>
+          <label for="email">Email</label><br />
+          <input type="email" name="email" id="email" />
+        </div>
+        <div>
+          <label for="password">Password</label><br />
+          <input type="password" name="password" id="password" />
+        </div>
+        <div>
+          <label for="password">Confirm Password</label><br />
+          <input type="password" name="password" id="password-confirm" />
+        </div>
+        <input type="submit" id="btn" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
